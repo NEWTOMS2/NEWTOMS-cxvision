@@ -14,9 +14,6 @@ This solution allows you to:
 
 1. [What does the solution do?](#What-does-the-solution-do?)
 2. [How does the solution work?](#How-does-the-solution-work?)
-    - [Processing independent videos](#1.-Processing-independent-videos)
-    - [Processing stream videos](#2.-Processing-stream-videos)
-        - [Continuous video upload to Amazon S3 Bucket](#Continuous-video-upload-to-Amazon-S3)
 3. [Recommendations](#Recommendations)
         
 ## What does the solution do?
