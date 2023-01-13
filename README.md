@@ -4,11 +4,11 @@
 
 **CxVision** helps you to:
 
-**Improve** service quality
-**Optimize** business operations
-**Elevate** customer experience
-**Make** data-driven decisions
-**Convert** clients into fans
+- **Improve** service quality
+- **Optimize** business operations
+- **Elevate** customer experience
+- **Make** data-driven decisions
+- **Convert** clients into fans
 
 ![Cxvision gif](./imgs/cxvision-metrics.gif)
 
