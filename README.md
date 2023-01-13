@@ -32,7 +32,7 @@ The solution allows you to define two zones in each video, a waiting zone (Dwell
 You can deploy the CxVision Model Package from AWS Marketplace and then configure some services needed to run the solution.
 The solution could be consumed in two different ways: In real-time or through a batch transform job.
 
-> CxVision also allows you to process streaming related videos in near real-time by executing a trigger for each new video fragment. [See CxVision - Streaming videos][./StreamingVideos.ipynb]
+> CxVision also allows you to process streaming related videos in near real-time by executing a trigger for each new video fragment. [See CxVision - Streaming videos](./StreamingVideos.ipynb)
 
 ## Recommendations
 
