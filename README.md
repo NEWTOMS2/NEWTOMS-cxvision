@@ -35,4 +35,4 @@ The solution could be consumed in two different ways: In real-time or through a 
 
 1. If the video resolution is greater than 1280 x 720, the solution will resize the video for better processing. However, it could take some time, so we recommend using a resolution lower than 1280 x 720.
 
-2. For better performance, the video fragments for the streaming videos processing should have a duration less or equal than 60 seconds.
+2. For better performance, the video fragments for streaming videos processing should have a duration less or equal than 60 seconds.
