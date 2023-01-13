@@ -49,10 +49,9 @@ def apply_blurring(image, box,  blocks=25):
     """Apply blurring"""
     y0 =  box['y0']
     y1 =  box['y1']
-    x0 =  box['y0']
-    x1 =  box['y1']
+    x0 =  box['x0']
+    x1 =  box['x1']
 
-    print(box)
     to_blur = image[y0:y1, x0:x1]
             
     (h, w) = to_blur.shape[:2]
@@ -72,7 +71,7 @@ def apply_blurring(image, box,  blocks=25):
 
     image[y0:y1, x0:x1] = to_blur
 
-def generate_video(video_path, video_predictions_path):
+def generate_video(video_path, video_predictions_path, output_video):
     # Opening JSON file
     with open(video_predictions_path, 'r') as openfile:
         video_predictions = json.load(openfile)
@@ -87,7 +86,7 @@ def generate_video(video_path, video_predictions_path):
 
     #Create output video
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    out_video = cv2.VideoWriter("example-2.mp4", fourcc, int(round(cap.get(cv2.CAP_PROP_FPS))), (v_width, v_height))
+    out_video = cv2.VideoWriter(output_video, fourcc, int(round(cap.get(cv2.CAP_PROP_FPS))), (v_width, v_height))
 
     for frame in video_predictions['tracking']:
         ret, video_frame = cap.read() 
