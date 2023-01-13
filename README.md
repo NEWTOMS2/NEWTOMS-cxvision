@@ -4,11 +4,11 @@
 
 **CxVision** helps you to:
 
-**Improve** service quality
-**Optimize** business operations
-**Elevate** customer experience
-**Make** data-driven decisions
-**Convert** clients into fans
+- **Improve** service quality
+- **Optimize** business operations
+- **Elevate** customer experience
+- **Make** data-driven decisions
+- **Convert** clients into fans
 
 ![Cxvision gif](./imgs/cxvision-metrics.gif)
 
@@ -47,8 +47,8 @@ You can deploy the CxVision Model Package from AWS Marketplace and then configur
 
 The solution is flexible to be consumed in different ways:
 
-1. Real-time: A single video is processed and its metrics are generated. See CxVision
-2. Batch process: A group of videos is processed.
+1. Real-time: A single video is processed and its metrics are generated.  [See CxVision Notebook](./CxVision.ipynb)
+2. Batch process: A group of videos is processed. [See CxVision Notebook](./CxVision.ipynb)
 3. Streaming Videos: In this mode, you can process streaming-related videos in near real-time by executing a trigger for each new video fragment. [See CxVision - Streaming Videos](./StreamingVideos.ipynb)
 
 ## Recommendations
