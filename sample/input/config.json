@@ -1,0 +1,8 @@
+{
+    "detection_threshold": "50",
+    "blurring": "True",
+    "timezone": "America/Los_Angeles",
+    "refresh_threshold": "24",
+    "dwell_zone": "[(200,500), (500,510), (490,710), (190,700)]",
+    "service_zone": "[(540,580), (1000,645), (990,720), (530,655)]"
+}

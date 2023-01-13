@@ -1,0 +1,32 @@
+{
+    "font_scale_label": 1,
+    "font_thickness": 1,
+    "bbox_thickness": 2,
+    "bbox_default_color": [255, 0, 0],
+    "areas": {
+      "service_area_coord": [],
+      "dwell_area_coord": [],
+      "unique_area": true
+    },
+    "tracking": [
+      {
+        "frame": 0,
+        "boxes": [
+          {
+            "p1": [640, 60],
+            "p2": [947, 466],
+            "p3": [640, 466],
+            "p4": [947, 60],
+            "font_scale_label": 1,
+            "font_thickness": 1,
+            "bbox_thickness": 2,
+            "label_id": "1",
+            "label_seconds": "2s"
+          }
+        ]
+      }
+    ],
+    "resume": [
+      "Frame 1 - 2023-01-11 17:19:23.458918. Metric_data: total_detections * 3 * video * video-prueba * ids * 1,2,3 * time 2,2,2\n"
+    ]
+  }
