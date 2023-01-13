@@ -1,6 +1,6 @@
 # CxVision - AWS Marketplace Model Package
 
-CxVision offers a computer vision solution for tracking people and generate metrics that can be subsequently analyzed to improve the user experience.
+CxVision offers a computer vision solution for tracking people and generating metrics that can be subsequently analyzed to improve the user experience.
 
 This solution allows you to:
 
@@ -18,7 +18,7 @@ This solution allows you to:
         
 ## What does the solution do?
 
-The solution allows you to define two zones in each video, a waiting zone (Dwell) and a service zone. This allows you to measure how long a person takes in queue (waiting zone) and how long it takes while being served (service zone). 
+The solution allows you to define two zones in each video, a waiting zone (Dwell) and a service zone. This allows you to measure how long a person takes in a queue (waiting zone) and how long it takes while being served (service zone). 
 
 ![Cxvision gif](./imgs/cxvision.gif)
 
@@ -29,10 +29,10 @@ The solution allows you to define two zones in each video, a waiting zone (Dwell
 You can deploy the CxVision Model Package from AWS Marketplace and then configure some services needed to run the solution.
 The solution could be consumed in two different ways: In real-time or through a batch transform job.
 
-> CxVision also allows you to process streaming related videos in near real-time by executing a trigger for each new video fragment. [See CxVision - Streaming videos](./StreamingVideos.ipynb)
+> CxVision also allows you to process streaming-related videos in near real-time by executing a trigger for each new video fragment. [See CxVision - Streaming videos](./StreamingVideos.ipynb)
 
 ## Recommendations
 
 1. If the video resolution is greater than 1280 x 720, the solution will resize the video for better processing. However, it could take some time, so we recommend using a resolution lower than 1280 x 720.
 
-2. For better performance, the video fragments for streaming videos processing should have a duration less or equal than 60 seconds.
+2. For better performance, the video fragments for streaming video processing should have a duration of less or equal to 60 seconds.
