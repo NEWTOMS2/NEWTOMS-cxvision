@@ -17,7 +17,7 @@
 1. [What does the solution do?](#What-does-the-solution-do?)
 2. [How does the solution work?](#How-does-the-solution-work?)
 3. [Recommendations](#Recommendations)
-        
+
 ## What does the solution do?
 
 This solution allows you to:
@@ -39,8 +39,6 @@ As a result, you'll get metrics that allow you to build business intelligence da
 
 ![Cxvision gif](./imgs/cxvision.gif)
 
-
-
 ## How does the solution work?
 
 You can deploy the CxVision Model Package from AWS Marketplace and configure some services needed to run the solution.
@@ -53,5 +51,5 @@ The solution is flexible to be consumed in different ways:
 
 ## Recommendations
 
-1. If the video resolution exceeds 1280 x 720, the solution will resize the video for better processing.
-2. For better performance, the video fragments for streaming video processing should have a duration of less or equal to 60 seconds.
+1. If the video resolution is greater than 1280 x 720, the solution will resize the video for better processing.
+2. For better performance, the video fragments for streaming video processing should have a duration of 180 frames. E.g. 1 video of 6 seconds at 30fps, 1 video of 180 seconds at 1fps.
